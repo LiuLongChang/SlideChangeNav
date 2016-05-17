@@ -12,6 +12,15 @@
 		9422522D1CE9C9DE005C5727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9422522B1CE9C9DE005C5727 /* Main.storyboard */; };
 		9422522F1CE9C9DF005C5727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9422522E1CE9C9DF005C5727 /* Assets.xcassets */; };
 		942252321CE9C9DF005C5727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942252301CE9C9DF005C5727 /* LaunchScreen.storyboard */; };
+		9422523A1CE9CC6D005C5727 /* TeachHomePageMoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942252391CE9CC6D005C5727 /* TeachHomePageMoreVC.swift */; };
+		9422523C1CE9CE26005C5727 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422523B1CE9CE26005C5727 /* InfoViewController.swift */; };
+		9422523E1CE9CE4F005C5727 /* TutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422523D1CE9CE4F005C5727 /* TutorViewController.swift */; };
+		942252401CE9CE65005C5727 /* BlessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422523F1CE9CE65005C5727 /* BlessViewController.swift */; };
+		946F94F21CEAB67F00F2259E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F94F11CEAB67F00F2259E /* Config.swift */; };
+		946F94F51CEADBBF00F2259E /* head_icon_112@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946F94F31CEADBBF00F2259E /* head_icon_112@2x.png */; };
+		946F94F61CEADBBF00F2259E /* OrganizerHeadImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946F94F41CEADBBF00F2259E /* OrganizerHeadImage@2x.png */; };
+		946F94F81CEADF9200F2259E /* TeachHomePageMoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946F94F71CEADF9200F2259E /* TeachHomePageMoreView.xib */; };
+		946F94FA1CEAF56500F2259E /* UITabViewl_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F94F91CEAF56500F2259E /* UITabViewl_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		9422522E1CE9C9DF005C5727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		942252311CE9C9DF005C5727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		942252331CE9C9E0005C5727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942252391CE9CC6D005C5727 /* TeachHomePageMoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeachHomePageMoreVC.swift; sourceTree = "<group>"; };
+		9422523B1CE9CE26005C5727 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		9422523D1CE9CE4F005C5727 /* TutorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorViewController.swift; sourceTree = "<group>"; };
+		9422523F1CE9CE65005C5727 /* BlessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlessViewController.swift; sourceTree = "<group>"; };
+		946F94F11CEAB67F00F2259E /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		946F94F31CEADBBF00F2259E /* head_icon_112@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head_icon_112@2x.png"; sourceTree = "<group>"; };
+		946F94F41CEADBBF00F2259E /* OrganizerHeadImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrganizerHeadImage@2x.png"; sourceTree = "<group>"; };
+		946F94F71CEADF9200F2259E /* TeachHomePageMoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeachHomePageMoreView.xib; sourceTree = "<group>"; };
+		946F94F91CEAF56500F2259E /* UITabViewl_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabViewl_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +72,17 @@
 		942252261CE9C9DD005C5727 /* SlideChangeNav */ = {
 			isa = PBXGroup;
 			children = (
+				946F94F31CEADBBF00F2259E /* head_icon_112@2x.png */,
+				946F94F41CEADBBF00F2259E /* OrganizerHeadImage@2x.png */,
 				942252271CE9C9DE005C5727 /* AppDelegate.swift */,
+				946F94F11CEAB67F00F2259E /* Config.swift */,
 				942252291CE9C9DE005C5727 /* ViewController.swift */,
+				942252391CE9CC6D005C5727 /* TeachHomePageMoreVC.swift */,
+				9422523B1CE9CE26005C5727 /* InfoViewController.swift */,
+				946F94F71CEADF9200F2259E /* TeachHomePageMoreView.xib */,
+				9422523D1CE9CE4F005C5727 /* TutorViewController.swift */,
+				9422523F1CE9CE65005C5727 /* BlessViewController.swift */,
+				946F94F91CEAF56500F2259E /* UITabViewl_Extension.swift */,
 				9422522B1CE9C9DE005C5727 /* Main.storyboard */,
 				9422522E1CE9C9DF005C5727 /* Assets.xcassets */,
 				942252301CE9C9DF005C5727 /* LaunchScreen.storyboard */,
@@ -123,7 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				942252321CE9C9DF005C5727 /* LaunchScreen.storyboard in Resources */,
+				946F94F81CEADF9200F2259E /* TeachHomePageMoreView.xib in Resources */,
 				9422522F1CE9C9DF005C5727 /* Assets.xcassets in Resources */,
+				946F94F61CEADBBF00F2259E /* OrganizerHeadImage@2x.png in Resources */,
+				946F94F51CEADBBF00F2259E /* head_icon_112@2x.png in Resources */,
 				9422522D1CE9C9DE005C5727 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9422522A1CE9C9DE005C5727 /* ViewController.swift in Sources */,
+				9422523E1CE9CE4F005C5727 /* TutorViewController.swift in Sources */,
+				942252401CE9CE65005C5727 /* BlessViewController.swift in Sources */,
+				946F94F21CEAB67F00F2259E /* Config.swift in Sources */,
+				946F94FA1CEAF56500F2259E /* UITabViewl_Extension.swift in Sources */,
 				942252281CE9C9DE005C5727 /* AppDelegate.swift in Sources */,
+				9422523C1CE9CE26005C5727 /* InfoViewController.swift in Sources */,
+				9422523A1CE9CC6D005C5727 /* TeachHomePageMoreVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +324,7 @@
 				942252381CE9C9E0005C5727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

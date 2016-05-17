@@ -16,6 +16,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        let nav:UINavigationController = UINavigationController(rootViewController:TeachHomePageMoreVC())
+        
+        
+        //nav.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: .CompactPrompt)
+        
+        let list = nav.navigationBar.subviews
+        for obj in list {
+            if obj is UIImageView {
+                obj.hidden = true
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        self.window?.rootViewController = nav
+        
         return true
     }
 
